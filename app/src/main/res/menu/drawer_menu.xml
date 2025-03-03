@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_main" android:title="Main" />
+    <item android:id="@+id/nav_dogs" android:title="Dogs" />
+    <item android:id="@+id/nav_cats" android:title="Cats" />
+    <item android:id="@+id/nav_fish" android:title="Fish" />
+    <item android:id="@+id/nav_accessories" android:title="Accessories" />
+    <item android:id="@+id/nav_logout" android:title="Logout" />
+</menu>

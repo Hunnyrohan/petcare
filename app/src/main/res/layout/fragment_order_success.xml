@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainbkg"
+    android:padding="16dp">
+
+    <!-- Tick Icon -->
+    <ImageView
+        android:id="@+id/tickIcon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+        android:src="@drawable/baseline_check_circle_24"
+    android:contentDescription="Tick Icon"
+    android:layout_marginBottom="16dp"/>
+
+    <!-- Thank You Text -->
+    <TextView
+        android:id="@+id/thankYouText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Thank you, your order has been placed successfully!"
+        android:textSize="24sp"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/mainbkg"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/nav_header_profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_perm_identity_24"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circular_image_background"
+        android:contentDescription="Profile Picture"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/nav_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PetCare"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- User Email -->
+    <TextView
+        android:id="@+id/nav_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unique@example.com"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Bottom Nav Options in Nav Header -->
+    <TextView
+        android:id="@+id/nav_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nav_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nav_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nav_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/nav_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <!-- New Your Orders Option -->
+    <TextView
+        android:id="@+id/nav_orders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Orders"
+        android:textColor="@android:color/white"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

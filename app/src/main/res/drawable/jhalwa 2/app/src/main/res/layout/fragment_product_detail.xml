@@ -1,0 +1,92 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Toolbar for Page Title -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/productDetailToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:title="Product Details"
+        android:titleTextColor="@color/black" />
+
+    <!-- Main Content Area -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+    android:layout_gravity="top"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/product_image"
+            android:background="@drawable/baseline_add_photo_alternate_24" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Product Name" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lavender"
+            android:layout_marginVertical="8dp" />
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/accentColor"
+            android:textStyle="bold"
+            android:text="$123.45" />
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/black"
+            android:text="Detailed product description goes here. This section provides the product overview and key features." />
+    </LinearLayout>
+</ScrollView>
+
+
+<Button
+android:id="@+id/addToCartButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/add_to_cart"
+android:backgroundTint="@color/accentColor"
+android:textColor="@color/white"
+android:layout_gravity="bottom"
+android:layout_alignParentBottom="true"
+android:layout_margin="16dp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

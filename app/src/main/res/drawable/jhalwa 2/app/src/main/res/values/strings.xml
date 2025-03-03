@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="welcome_message">Dear %1$s, Welcome to PetCare</string>
+    <string name="default_user">User</string>
+<string name="profile_image_desc">Description of profile image</string>
+    <string name="product_image_description">Product image</string>
+    <string name="item_image_desc">item_image_desc</string>
+    <string name="explore">Explore</string>
+    <string name="best_deals">Best Deals</string>
+    <string name="home_cover_image">Home Cover Image</string>
+    <string name="dog_category">Dog Category</string>
+    <string name="cat_category">Cat Category</string>
+    <string name="fish_category">Fish Category</string>
+    <string name="accessories_category">Accessories Category</string>
+    <string name="adopted_pet_image">adopted_pet_image</string>
+    <string name="product_image">product_image</string>
+
+        <string-array name="action_options">
+            <item>Select Action</item>
+            <item>Add Product</item>
+            <item>Delete Product</item>
+        </string-array>
+
+<string name="add_to_cart">add_to_cart</string>
+    <string name="feature_3">feature_3</string>
+    <string name="feature_2">feature_3</string>
+    <string name="feature_1">feature_3</string>
+
+</resources>
