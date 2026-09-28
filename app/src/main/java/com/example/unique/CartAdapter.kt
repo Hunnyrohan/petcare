@@ -38,9 +38,7 @@ class CartAdapter(
         holder.quantityTextView.text = product.quantity.toString()
 
         // Load product image
-        Glide.with(holder.productImage.context)
-            .load(product.imageUrl)
-            .into(holder.productImage)
+        ImageHelper.loadImage(holder.productImage, product.imageUrl, product.name, product.category)
 
         // Handle quantity increase
         holder.plusButton.setOnClickListener {

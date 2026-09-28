@@ -33,11 +33,7 @@ class ProductAdapter(
         holder.productName.text = product.name
         holder.productPrice.text = "₹${product.price}"
 
-        Glide.with(holder.productImage.context)
-            .load(product.imageUrl)
-            .placeholder(R.drawable.baseline_add_photo_alternate_24)
-            .error(R.drawable.baseline_add_photo_alternate_24)
-            .into(holder.productImage)
+        ImageHelper.loadImage(holder.productImage, product.imageUrl, product.name, product.category)
 
         holder.addToCartButton.setOnClickListener {
             onAddToCartClick(product)

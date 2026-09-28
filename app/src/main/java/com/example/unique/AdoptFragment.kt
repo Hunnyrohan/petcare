@@ -1,3 +1,5 @@
+package com.example.unique
+
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
@@ -54,24 +56,35 @@ class AdoptFragment : Fragment() {
     }
 
     private fun submitPetDetails() {
-        val petName = binding.editTextPetName.text.toString().trim()
-        val petColor = binding.editTextPetColor.text.toString().trim()
+        val petName     = binding.editTextPetName.text.toString().trim()
+        val petColor    = binding.editTextPetColor.text.toString().trim()
         val petLocation = binding.editTextPetLocation.text.toString().trim()
+        val petType     = binding.editTextPetType.text.toString().trim()
+        val feeText     = binding.editTextAdoptionFee.text.toString().trim()
+        val adoptionFee = if (feeText.isNotEmpty()) feeText.toDoubleOrNull() ?: 0.0 else 0.0
 
-        if (petName.isNotEmpty() && petColor.isNotEmpty() && petLocation.isNotEmpty() && selectedImageUri != null) {
-            uploadPetImage(petName, petColor, petLocation)
+        if (petName.isNotEmpty() && petColor.isNotEmpty() && petLocation.isNotEmpty()) {
+            if (selectedImageUri != null) {
+                uploadPetImage(petName, petColor, petLocation, petType, adoptionFee)
+            } else {
+                // Allow submission without image (will use local drawable fallback)
+                savePetDetails(petName, petColor, petLocation, petType, adoptionFee, "")
+            }
         } else {
-            Toast.makeText(context, "Please fill out all fields and select an image.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, "Please fill out all required fields.", Toast.LENGTH_SHORT).show()
         }
     }
 
-    private fun uploadPetImage(petName: String, petColor: String, petLocation: String) {
+    private fun uploadPetImage(
+        petName: String, petColor: String, petLocation: String,
+        petType: String, adoptionFee: Double
+    ) {
         val storageReference = FirebaseStorage.getInstance().reference
         val imageRef = storageReference.child("adopt_pets/${UUID.randomUUID()}.jpg")
         selectedImageUri?.let { uri ->
             imageRef.putFile(uri).addOnSuccessListener {
                 imageRef.downloadUrl.addOnSuccessListener { downloadUrl ->
-                    savePetDetails(petName, petColor, petLocation, downloadUrl.toString())
+                    savePetDetails(petName, petColor, petLocation, petType, adoptionFee, downloadUrl.toString())
                 }
             }.addOnFailureListener {
                 Toast.makeText(context, "Failed to upload image", Toast.LENGTH_SHORT).show()
@@ -79,13 +92,18 @@ class AdoptFragment : Fragment() {
         }
     }
 
-    private fun savePetDetails(petName: String, petColor: String, petLocation: String, imageUrl: String) {
+    private fun savePetDetails(
+        petName: String, petColor: String, petLocation: String,
+        petType: String, adoptionFee: Double, imageUrl: String
+    ) {
         val db = FirebaseFirestore.getInstance()
         val petData = hashMapOf(
-            "name" to petName,
-            "color" to petColor,
-            "location" to petLocation,
-            "imageUrl" to imageUrl
+            "name"        to petName,
+            "color"       to petColor,
+            "location"    to petLocation,
+            "petType"     to petType,
+            "price"       to adoptionFee,
+            "imageUrl"    to imageUrl
         )
 
         db.collection("adoptedPets").add(petData)
@@ -102,6 +120,8 @@ class AdoptFragment : Fragment() {
         binding.editTextPetName.text.clear()
         binding.editTextPetColor.text.clear()
         binding.editTextPetLocation.text.clear()
+        binding.editTextPetType.text.clear()
+        binding.editTextAdoptionFee.text.clear()
         binding.imageViewPet.setImageResource(0)
         selectedImageUri = null
     }

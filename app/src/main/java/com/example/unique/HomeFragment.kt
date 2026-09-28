@@ -1,3 +1,5 @@
+package com.example.unique
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -101,12 +103,15 @@ class HomeFragment : Fragment() {
                 .get()
                 .addOnSuccessListener { documents ->
                     productList = documents.map { document ->
-                        val name = document.getString("name") ?: ""
+                        val name     = document.getString("name") ?: ""
                         val imageUrl = document.getString("imageUrl") ?: ""
-                        val age = document.getDouble("age") ?: 0.0
-                        val id = document.id
-                        // Assuming pets have "name", "imageUrl", and "age" fields
-                        Product(name, imageUrl, age, category, id)
+                        val price    = document.getDouble("price") ?: 0.0
+                        val location = document.getString("location") ?: ""
+                        val petType  = document.getString("petType") ?: ""
+                        val id       = document.id
+                        // category stores location for display; name includes petType prefix if set
+                        val displayName = if (petType.isNotEmpty()) "$petType - $name" else name
+                        Product(displayName, imageUrl, price, location, id)
                     }
                     // Update the adapter with the new product list (adopted pets)
                     bestDealsAdapter.updateProducts(productList)

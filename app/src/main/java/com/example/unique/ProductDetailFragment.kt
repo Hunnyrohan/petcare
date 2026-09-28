@@ -50,11 +50,13 @@ class ProductDetailFragment : Fragment() {
         db.collection("bestDeals").document(productId).get()
             .addOnSuccessListener { document ->
                 if (document != null) {
-                    productName.text = document.getString("name")
+                    val name = document.getString("name").orEmpty()
+                    val category = document.getString("category").orEmpty()
+                    productName.text = name
                     productPrice.text = "Price: ₹${document.getDouble("price") ?: 0.0}"
                     productDescription.text = document.getString("description")
                     val imageUrl = document.getString("imageUrl")
-                    Glide.with(this).load(imageUrl).into(productImage)
+                    ImageHelper.loadImage(productImage, imageUrl, name, category)
 
                     addToCartButton.setOnClickListener {
                         // Create a product object to add to the cart

@@ -23,7 +23,7 @@ class BestDealsAdapter(
         fun bind(product: Product) {
             productName.text = product.name
             productPrice.text = "Price: ₹${product.price}"
-            Glide.with(itemView.context).load(product.imageUrl).into(productImage)
+            ImageHelper.loadImage(productImage, product.imageUrl, product.name, product.category)
 
             itemView.setOnClickListener {
                 val fragment = ProductDetailFragment.newInstance(product.id)

@@ -62,6 +62,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- Pet Type Input -->
+    <EditText
+        android:id="@+id/editTextPetType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pet Type (e.g. Dog, Cat, Rabbit)"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextPetLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Adoption Fee Input -->
+    <EditText
+        android:id="@+id/editTextAdoptionFee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adoption Fee (₹)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/editTextPetType"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <!-- Image Upload Button -->
     <Button
         android:id="@+id/buttonSelectImage"
@@ -70,7 +98,7 @@
         android:text="Select Image"
         android:backgroundTint="@android:color/holo_green_light"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/editTextPetLocation"
+        app:layout_constraintTop_toBottomOf="@id/editTextAdoptionFee"
         app:layout_constraintStart_toStartOf="parent" />
 
     <!-- Image Preview -->

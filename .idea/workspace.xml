@@ -10,11 +10,372 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668d0ed7-0aa1-4569-a360-392887cd3fbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/dependencies-accessors/3cbd5d081629333c22d3fab55819dd3dce058810/metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/dependencies-accessors/3cbd5d081629333c22d3fab55819dd3dce058810/metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/unique.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/AdoptFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/AdoptFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/AdoptedPetsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/AdoptedPetsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/BestDealsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/BestDealsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/CartAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/CartAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/OrderSuccessFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/OrderSuccessFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProductAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProductAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProductDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProductDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/unique/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/jitpack.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/mavenpush.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/preview.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/java/com/yalantis/ucrop/sample/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/java/com/yalantis/ucrop/sample/SampleActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/java/com/yalantis/ucrop/sample/SampleApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/drawable/bg_rounded_rectangle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/drawable/ic_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/drawable/ic_file_download.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/layout/activity_result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/layout/activity_sample.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/layout/include_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/menu/menu_result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/sample/src/main/res/xml/file_provider_paths.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/UCrop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/UCropActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/UCropFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/UCropFragmentCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/UCropHttpClientStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/callback/BitmapCropCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/callback/BitmapLoadCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/callback/CropBoundsChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/callback/OverlayViewChangeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/model/AspectRatio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/model/CropParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/model/ExifInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/model/ImageState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapCropTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/task/BitmapLoadTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/BitmapLoadUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/CubicEasing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/EglUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/FastBitmapDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/ImageHeaderParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/RectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/RotationGestureDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/util/SelectedStateListDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/CropImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/GestureCropImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/OverlayView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/TransformImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/UCropView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/widget/AspectRatioTextView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/java/com/yalantis/ucrop/view/widget/HorizontalProgressWheelView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jni/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jni/Application.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jni/CImg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jni/com_yalantis_ucrop_task_BitmapCropTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jni/uCrop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jniLibs/arm64-v8a/libucrop.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jniLibs/armeabi-v7a/libucrop.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jniLibs/armeabi/libucrop.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jniLibs/x86/libucrop.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/jniLibs/x86_64/libucrop.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/anim/ucrop_loader_circle_path.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/anim/ucrop_loader_circle_scale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/color/ucrop_scale_text_view_selector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-hdpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-hdpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-ldpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-ldpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-mdpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-mdpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xhdpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xhdpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xxhdpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xxhdpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xxxhdpi/ucrop_ic_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable-xxxhdpi/ucrop_ic_done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_crop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_crop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_crop_unselected.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_cross.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_next.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_reset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_rotate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_rotate_unselected.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_scale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_ic_scale_unselected.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_rotate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_scale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_shadow_upside.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_vector_ic_crop.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_vector_loader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_vector_loader_animated.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/drawable/ucrop_wrapper_controls_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_activity_photobox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_aspect_ratio.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_controls.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_fragment_photobox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_layout_rotate_wheel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_layout_scale_wheel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/layout/ucrop_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/menu/ucrop_menu_activity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-de/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-es/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-fa/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-fi/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-fr/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-in/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-it/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-ja/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-ko/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-nl/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-pt/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-ru/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-sk/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-th/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-tr/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-zh-rTW/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values-zh/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/public.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/libs/uCrop-2.2.9-native/ucrop/src/main/res/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/release/baselineProfiles/0/app-release.dm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/release/baselineProfiles/1/app-release.dm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/release/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/androidTest/java/com/example/unique/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/AdminDashboardActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/AdoptFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/AdoptPetAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/AdoptedPetsAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/BestDealsAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CartAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CartFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CartItem.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CartManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CategoryAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CategoryFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CategoryProductsFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/CheckoutFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/FragmentFeedback.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/GridSpacingItemDecoration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/HomeFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/ImageSliderAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/LoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/NavigationMenuAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/Order.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/OrderDetailsAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/OrderDetailsFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/OrderItemsAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/OrderSuccessFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/PaymentMethodFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/Product.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/ProductAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/ProductDetailFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/ProfileFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/SearchFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/SignupActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/java/com/example/unique/UserOrdersAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/scale_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/scale_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/slide_in_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/anim/slide_out_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/accessories.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_add_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_add_photo_alternate_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_check_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_check_circle_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_delete_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_drive_folder_upload_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_email_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_home_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_info_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_lock_reset_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_logout_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_menu_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_minimize_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_perm_identity_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_search_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_settings_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_shopping_bag_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_shopping_cart_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_star_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/baseline_star_border_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/button_primary_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/button_secondary_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/button_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/card_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/category_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/cats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/circular_image_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/dogs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/edit_text_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/edit_text_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/fish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/gpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/header_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/image2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/image_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/lavender_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/lavender_fill.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/loginbkg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/mainbkg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/paytm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/phonepe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/sample_product_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/sample_product_image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/sample_product_image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/spinner_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/spinner_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/drawable/spinner_popup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/font/fonts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/font/roboto_regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_admin_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_product_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_signup.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/activity_user_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/cart_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/dialog_forgot.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/dialog_user_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_adopt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_adopted_pets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_category_products.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_checkout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_feedback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_order_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_order_success.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_payment_method.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_product_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/fragment_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_adopted_pets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_order.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_order_product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/item_product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/nav_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/order_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/order_detail_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/product_delete_card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/product_item_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/slider_image_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/layout/user_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/menu/drawer_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-hdpi/logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/raw/order_confirmation.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/main/res/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/app/src/test/java/com/example/unique/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/jhalwa 2/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_adopt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_adopt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_adopted_pets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_adopted_pets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +385,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/ravijaiswal/.android/avd/Medium_Phone.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\Acer\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -48,10 +409,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;ScreenshotViewer.SavePath&quot;: &quot;C:/Users/Acer/AndroidStudioProjects/petcare_kotlin_individual&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/AndroidStudioProjects/petcare_kotlin_individual&quot;,
+    &quot;recommended.upgrade.last.time.stamp&quot;: &quot;1790351651975&quot;
   }
 }</component>
   <component name="RunManager">

@@ -1,7 +1,7 @@
 package com.example.unique
 
-import HomeFragment
-import AdoptFragment
+import com.example.unique.HomeFragment
+import com.example.unique.AdoptFragment
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
